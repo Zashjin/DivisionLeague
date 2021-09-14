@@ -5,7 +5,7 @@ import Header from './../Header/Header'
 
 const Create = () => {
     const [submitted, setSubmitted]= useState(false)
-    const [errors, seterrors]= useState({})
+    
 
     
 
@@ -63,21 +63,21 @@ const Create = () => {
             <form  onSubmit={(e)=> submit(e)} className={classes.Form} >
             {submitted ? <div className={classes.Success}>Success! Your Entry Will Be Reviewed!</div>: null }
                 <label>Team Name</label>
-                <input onChange={(e)=>handle(e)} value={data.TeamName}type="Text"  name="TeamName" />
+                <input onChange={(e)=>handle(e)} value={data.TeamName}type="Text"  name="TeamName" required="true" />
                 <label>Team Captain</label>
-                <input onChange={(e)=>handle(e)} value={data.TeamCaptain}type="Text" name="TeamCaptain" />
+                <input onChange={(e)=>handle(e)} value={data.TeamCaptain}type="Text" name="TeamCaptain" required="true" />
                 <label>Top Laner</label>
-                <input onChange={(e)=>handle(e)} value={data.Top}type="Text"  name="Top" />
+                <input onChange={(e)=>handle(e)} value={data.Top}type="Text"  name="Top" required="true" />
                 <label>Jungler</label>
-                <input onChange={(e)=>handle(e)} value={data.Jungle}type="Text"  name="Jungle" />
+                <input onChange={(e)=>handle(e)} value={data.Jungle}type="Text"  name="Jungle"  required="true" />
                 <label>Mid Laner</label>
-                <input onChange={(e)=>handle(e)} value={data.Mid}type="Text"  name="Mid" />
+                <input onChange={(e)=>handle(e)} value={data.Mid}type="Text"  name="Mid"  required="true" />
                 <label>ADC</label>
-                <input onChange={(e)=>handle(e)} value={data.ADC}type="Text"  name="ADC" />
+                <input onChange={(e)=>handle(e)} value={data.ADC}type="Text"  name="ADC" required="true" />
                 <label>Support</label>
-                <input onChange={(e)=>handle(e)} value={data.Support}type="Text"  name="Support" />
+                <input onChange={(e)=>handle(e)} value={data.Support}type="Text"  name="Support"  required="true" />
                 <label>Coach</label>
-                <input onChange={(e)=>handle(e)} value={data.Sub}type="Text"  name="Sub" />
+                <input onChange={(e)=>handle(e)} value={data.Sub}type="Text"  name="Sub"   />
                 
                 <button type='submit'>
                     Submit
