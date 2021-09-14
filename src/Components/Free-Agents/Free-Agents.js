@@ -48,23 +48,9 @@ const FreeAgents = () => {
                 <label>Name</label>
                 <input onChange={(e)=>handle(e)} value={data.name} type="Text"  name="name" required="true" />
                 <label>1st Position</label>
-                <select onChange={(e)=>handle(e)} value={data.name} type="Text"  name="1st Position" required="true">
-                    <option value="">-- Select an Option --</option>
-                    <option value="Top">Top</option>
-                    <option value="Jungle">Jungle</option>
-                    <option value="Mid">Mid</option>
-                    <option value="ADC">ADC</option>
-                    <option value="Support">Support</option>
-                </select>
+                <input onChange={(e)=>handle(e)} value={data.position1} type="Text" name="position1" required="true" />
                 <label>2nd Position</label>
-                <select onChange={(e)=>handle(e)} value={data.name} type="Text"  name="2nd Position" required="true">
-                    <option value="">-- Select an Option --</option>
-                    <option value="Top">Top</option>
-                    <option value="Jungle">Jungle</option>
-                    <option value="Mid">Mid</option>
-                    <option value="ADC">ADC</option>
-                    <option value="Support">Support</option>
-                </select>
+                <input onChange={(e)=>handle(e)} value={data.position2} type="Text"  name="position2" required="true"  />
                 <label>Availability</label>
                 <input onChange={(e)=>handle(e)} value={data.availability} type="Text"  name="availability" required="true" />
                 <button>Submit</button>
