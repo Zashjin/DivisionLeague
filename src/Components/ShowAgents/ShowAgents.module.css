@@ -33,7 +33,7 @@
     font-size:2.8rem;
 }
 .Agents h3 {
-  
+    text-transform: capitalize;
     justify-self: center;
     color: white;
     margin-left: 1rem;
