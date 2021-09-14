@@ -1,0 +1,126 @@
+.Agents {
+    width: 100%;
+    background:black;
+}
+
+.Agents .Border {
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    border: #990300;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.Agents  h1 {
+    padding-top: 3.5rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: #990300;
+    font-size: 4rem;
+}
+
+.Agents  h2 {
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-decoration-color: #990300;
+    display: flex;
+    justify-content: center;
+    padding-top: 0rem;
+    color: #d61915;
+    font-size:2.8rem;
+}
+.Agents h3 {
+  
+    justify-self: center;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size :2rem
+}
+
+.Agents .Free  h4 {
+   
+    justify-self: center;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size :2rem
+}
+
+.Agents .Free p {
+    
+    justify-self: center;
+    color: white;
+    padding-top: 2 rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-size :2rem
+
+}
+
+.Agents .Free .First {
+    display:flex;
+}
+.Free {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Agents hr {
+    margin-block-start: 20%;
+    margin: 0;
+	height: 1rem;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%,#990300));
+}
+ hr {
+    margin-left: 20%;
+    margin-right: 20%;
+	height: 2px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%,#990300));
+}
+
+.TeamName {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.Players {
+    display: flex;
+    justify-content: left;
+    margin-left: 10%;
+    padding-bottom: 2rem;
+}
+.Teams .Players .Me {
+    height: 1.5rem;
+    margin-top: 10px;
+    padding-right: 1rem;
+
+}
+.Title {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.Captain {
+    display: flex;
+    margin-right: auto;
+    margin:0;
+    padding-bottom: 1rem
+    
+}
+.Teamcaptain {
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}

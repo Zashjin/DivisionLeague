@@ -1,0 +1,79 @@
+
+.Main {
+    background:#191919;
+    height: 95vh;
+}
+
+.Main .Container {
+    display: flex;
+    padding-top: 5%;
+}
+
+.Main .Container .Text {
+    width: 50%;
+    margin-left: 3%;
+    padding-top: 4%;
+}
+.Main .Container .Text h1 {
+    display: flex;
+    justify-Content: center;
+    align-self: center;
+    font-weight: 900;
+    font-size: 5rem;
+    padding-bottom: 3%;
+    color: white;
+    
+    
+}
+
+.Main .Container .Text h2 {
+    display: flex;
+    justify-Content: center;
+    font-weight: 900;
+    font-size: 4rem;
+    padding-bottom: 5%;
+    color: #d61915;
+
+    
+}
+
+.Main .Container .Text h3 {
+    font-weight: 900;
+    font-size:2.5rem;
+    padding-bottom: 5%;
+    padding-left: 6%;
+    color:white
+    
+}
+
+.Main .Container .Photo {
+    height: 800px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+.Main .Container .Photo {
+    height: 800px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding-bottom: 2%;
+    padding-top: 5%;
+    padding-right: 2%;
+}
+.Main .Container .Photo .Me {
+    height: 650px;
+    border-radius:8%;
+}
+
+.Main .Container .Text .Title {
+    display: flex;
+    flex-direction: row;
+}
+
+.Main .Container .Text .Elo {
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+}
