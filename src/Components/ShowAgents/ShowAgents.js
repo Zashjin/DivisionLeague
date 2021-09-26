@@ -9,7 +9,7 @@ const Agents = () => {
     const [agent, setAgent] = useState([]);
 
     useEffect(() => {
-      axios.get("https://sheetdb.io/api/v1/kp83qzbkbhxta?sheet=FreeAgent")
+      axios.get("https://api.sheety.co/da3378cdd100437010a93e4dcf19c1a6/loLNaDivisionLeagueMastersheet/freeAgent")
         .then((res) => {  
         setAgent(res.data)
         console.log(res.data);
