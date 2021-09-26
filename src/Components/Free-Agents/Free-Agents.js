@@ -7,7 +7,7 @@ const FreeAgents = () => {
 
     const [submitted, setSubmitted]= useState(false);
 
-    const url ="https://sheetdb.io/api/v1/kp83qzbkbhxta?sheet=FreeAgent"
+    const url ="https://api.sheety.co/da3378cdd100437010a93e4dcf19c1a6/loLNaDivisionLeagueMastersheet/freeAgent"
     const [data, setData] = useState({
         name:'',
         position1:'',
