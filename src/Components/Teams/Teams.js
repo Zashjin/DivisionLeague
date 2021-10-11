@@ -17,7 +17,7 @@ function Teams(){
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    axios.get("https://api.sheety.co/da3378cdd100437010a93e4dcf19c1a6/loLNaDivisionLeagueMastersheet/teams")
+    axios.get("https://sheetdb.io/api/v1/kp83qzbkbhxta?sheet=Teams")
       .then((res) => {  
       setTeams(res.data)
       console.log(res.data);
